@@ -996,10 +996,10 @@ body {
 
     .voice {
         text-align: center;
-        padding-bottom: 4.1vw;
+        padding-bottom: 6vw;
         background-color: #fdf0f5;
         @include large($pc) {
-            padding-bottom: 2.625rem;
+            padding-bottom: 1.625rem;
         }
         &__subtitle {
             font-size: 2rem;
@@ -1014,10 +1014,9 @@ body {
         }
         .slider {
             margin: 0 auto;
-            padding: 5.5vw 0;
+            padding: 5.5vw 0 3.25rem;
             overflow-x: hidden;
             overflow-y: hidden;
-            height: 16rem; 
             @include large($pc) {
                 column-gap: 1vw;
                 padding-top:1vw;
@@ -1125,7 +1124,7 @@ body {
             }
         }
         .slick-dots {
-            bottom: 2vw;
+            bottom: 1vw;
         }
         .slick-dots li button:before{
             font-size:1.1rem!important;

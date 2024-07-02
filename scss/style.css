@@ -1560,12 +1560,12 @@ body .course__contentsText {
 }
 body .voice {
   text-align: center;
-  padding-bottom: 4.1vw;
+  padding-bottom: 6vw;
   background-color: #fdf0f5;
 }
 @media screen and (min-width: 768px) {
   body .voice {
-    padding-bottom: 2.625rem;
+    padding-bottom: 1.625rem;
   }
 }
 body .voice__subtitle {
@@ -1583,10 +1583,9 @@ body .voice__subtitle {
 }
 body .voice .slider {
   margin: 0 auto;
-  padding: 5.5vw 0;
+  padding: 5.5vw 0 3.25rem;
   overflow-x: hidden;
   overflow-y: hidden;
-  height: 16rem;
 }
 @media screen and (min-width: 768px) {
   body .voice .slider {
@@ -1715,7 +1714,7 @@ body .voice__boxText {
   }
 }
 body .voice .slick-dots {
-  bottom: 2vw;
+  bottom: 1vw;
 }
 body .voice .slick-dots li button:before {
   font-size: 1.1rem !important;
